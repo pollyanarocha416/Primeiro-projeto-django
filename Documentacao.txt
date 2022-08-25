@@ -1,0 +1,14 @@
+primeiro inicia o ambiente virtual
+depois instala o django no ambiente virtual
+e \\django-admin startproject mysite
+
+
+------------------------------------------------
+mysite/O diretório raiz externo é um contêiner para seu projeto. Seu nome não importa para o Django; você pode renomeá-lo para o que quiser.
+manage.py: Um utilitário de linha de comando que permite interagir com este projeto Django de várias maneiras. Você pode ler todos os detalhes manage.pyem django-admin e manage.py .
+O diretório interno mysite/é o pacote Python real para seu projeto. Seu nome é o nome do pacote Python que você precisará usar para importar qualquer coisa dentro dele (por exemplo, mysite.urls).
+mysite/__init__.py: um arquivo vazio que informa ao Python que esse diretório deve ser considerado um pacote do Python. Se você é um iniciante em Python, leia mais sobre pacotes nos documentos oficiais do Python.
+mysite/settings.py: Configurações/configuração para este projeto Django. As configurações do Django lhe dirão tudo sobre como as configurações funcionam.
+mysite/urls.py: As declarações de URL para este projeto Django; uma “tabela de conteúdo” do seu site com Django. Você pode ler mais sobre URLs em URL dispatcher .
+mysite/asgi.py: Um ponto de entrada para servidores web compatíveis com ASGI para atender seu projeto. Consulte Como implantar com ASGI para obter mais detalhes.
+mysite/wsgi.py: Um ponto de entrada para servidores web compatíveis com WSGI para atender seu projeto. Consulte Como implantar com WSGI para obter mais detalhes.
